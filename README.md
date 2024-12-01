@@ -32,3 +32,10 @@ Al escribir posteriormente el comando "remote -v" se comprueba que este reposito
 ---TERCER COMMIT-----
 12. Se introducen las imágenes explicativas en este documento.
 13. Repetición del paso 11.
+![Comandos utilizados en el cmd para añadir el Tercer Commit](images/ThirdCommit.png)
+---GUARDAR LOS CAMBIOS EN EL REPOSITORIO REMOTO-----
+14. Se gestiona mediante el comando "git push origin master" siendo master el nombre de la rama principal.
+![Subir los cambios al repositorio remoto parte 1](images/ChangesRemote1.png)
+![Subir los cambios al repositorio remoto parte 2](images/ChangesRemote2.png)
+
+
