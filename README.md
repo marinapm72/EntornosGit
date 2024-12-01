@@ -8,7 +8,7 @@ Comprobamos que está instalado correctamente mediante "git --version"
 ![Configuración del usuario y correo](images/UserCorreo.png)
 3. Creación de una carpeta en el escritorio que contenga el proyecto. Para el posicionamiento en el escritorio se utiliza "cd C:\Users\Marina\Desktop" y se crea una carpeta con "mkdir Proyecto_Entornos_Git".
 4. Para la creación de un repositorio nos posicionamos en la raíz del proyecto con el comando anterior "cd" e introducimos el siguiente comando "git init".
-![Creación del proyecto y repositorio](images/ProyectoRepositorio.png)
+![Creación del proyecto y repositorio](images/ProyectoRepositorioGit.png)
 5.Producción del fichero .gitignore con la herramienta "copy con .gitignore" y el texto correspondiente para las extensiones y ficheros que git ignorará. Al finalizar se pulsa Ctrl+Z+Enter.
 ![Creación del fichero .gitignore](images/GitIgnore.png)
 6. Obtención del fichero README.md y la carpeta images en la raíz del proyecto mediante sus respectivos comandos "echo. >README.md" y "mkdir images".
@@ -38,4 +38,4 @@ Al escribir posteriormente el comando "remote -v" se comprueba que este reposito
 ![Subir los cambios al repositorio remoto parte 1](images/ChangesRemote1.png)
 ![Subir los cambios al repositorio remoto parte 2](images/ChangesRemote2.png)
 
-
+Apunte: hay commits posteriores para corregir errores y añadir información.
