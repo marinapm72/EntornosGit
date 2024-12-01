@@ -17,22 +17,21 @@ Comprobamos que está instalado correctamente mediante "git --version"
 8. La URL que proporciona GitHub a partir del repositorio remoto es copiada al cmd y añadida con "git remote add origin https://github.com/marinapm72/EntornosGit.git". Al escribir posteriormente el comando "remote -v" se comprueba que este repositorio remoto se ha añadido correctamente.
 ![Creación Repositorio Remoto en GitHub](images/RemoteRepository.png)
 ![Comandos que agregan el repositorio remoto](images/AddRepository.png)
--> PRIMER COMMIT
+PRIMER COMMIT
 9. Para hacer el primer commit, guardamos este archivo y en cmd se hace lo siguiente:
 - Añadir el archivo README.md al área de preparación: "git add README.md"
 - Realizar un commit: "git commit -m "Primer Commit".
 ![Comandos utilizados en el cmd para añadir el Primer Commit](images/FirstCommit.png)
--> SEGUNDO COMMIT
+SEGUNDO COMMIT
 10. Se añaden las capturas de pantalla a la carpeta images en la raíz del proyecto. 
 11. Repetición del paso nueve, añadiendo esta vez todos los archivos modificados:
 - "git add ."
 - "git commit -am "Segundo Commit"
-![Comandos utilizados en el cmd para añadir el Segundo Commit](images/SecondCommit.png)
--> TERCER COMMIT
+![Comandos utilizados en el cmd para añadir el Segundo Commit](images/SecondCommit.png)TERCER COMMIT
 12. Se introducen las imágenes explicativas en este documento.
 13. Repetición del paso once.
 ![Comandos utilizados en el cmd para añadir el Tercer Commit](images/ThirdCommit.png)
--> GUARDAR LOS CAMBIOS EN EL REPOSITORIO REMOTO
+GUARDAR LOS CAMBIOS EN EL REPOSITORIO REMOTO
 14. Se gestiona mediante el comando "git push origin master" siendo master el nombre de la rama principal.
 ![Subir los cambios al repositorio remoto parte 1](images/ChangesRemote1.png)
 ![Subir los cambios al repositorio remoto parte 2](images/ChangesRemote2.png)
